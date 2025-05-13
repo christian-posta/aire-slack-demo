@@ -2,6 +2,8 @@
 
 This is a simple template for a Slack bot that uses [A2A](https://github.com/google/A2A) to connect to [kagent](https://github.com/kagent-dev/kagent).
 
+Follow along with the [Integrating kagent with Slack](https://kagent.dev/docs/examples/slack-a2a) article for a complete walkthrough.
+
 ## Setup
 
 1. Clone the repository
