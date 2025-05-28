@@ -63,7 +63,7 @@ async def mykagent_command(
         await client.chat_postMessage(
             channel=channel_id,
             user=user_id,
-            text="Hello! Once you set the KAGENT_A2A_URL environment variable, you can use the /mykagent command.",
+            text="Hello! Once you set the KAGENT_A2A_URL environment variable, you can use the /aire command.",
         )
         return
 
@@ -90,4 +90,4 @@ def register_handlers(app: AsyncApp):
     """
 
     # Commands
-    app.command("/mykagent")(mykagent_command)
+    app.command("/aire")(mykagent_command)
