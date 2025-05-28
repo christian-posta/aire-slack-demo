@@ -37,3 +37,15 @@ cp .env.example .env
 ```bash
 uv run main.py
 ```
+
+To call an a2a agent in kagent:
+
+```
+curl localhost:8083/api/a2a/kagent/k8s-agent/.well-known/agent.json
+```
+
+And then configure 
+
+```bash
+KAGENT_A2A_URL=http://localhost:8083/api/a2a/kagent/k8s-agent
+```
