@@ -26,6 +26,10 @@ uv sync
 
 ## Configuration
 
+Start kagent:
+
+
+
 The bot is configured using environment variables. Make a copy of the `.env.example` file and fill in the values.
 
 ```bash
@@ -49,3 +53,11 @@ And then configure
 ```bash
 KAGENT_A2A_URL=http://localhost:8083/api/a2a/kagent/k8s-agent
 ```
+
+
+To call the bot in slack, go to the workspace where it's connected, and type something like:
+
+```bash
+/aire What pods are in the default namespace?
+```
+
